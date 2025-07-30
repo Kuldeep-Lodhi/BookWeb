@@ -1,0 +1,819 @@
+#Child01 {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow-y: scroll;
+ 
+}
+#top{
+    color: blue;
+    font-size: 3rem;
+    font-weight: 600;
+    background: none;
+    margin-top: 2rem;
+}
+
+#soncontainer01 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+  border-radius: 24px;
+    
+}
+
+#soncontainer02 {
+    width: 90%;
+    height: 40%;
+    /* background-color: rgb(226, 43, 43); */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer03 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer04 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer05 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer06 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer07 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+#soncontainer08 {
+    width: 90%;
+    height: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(23, 23, 23);
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 2rem;
+       overflow: auto;
+  scrollbar-width: none;
+   border-radius: 24px;
+}
+
+.son {
+    height: 100%;
+    width: 15%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-radius: 25px;
+
+
+}
+.son:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 20px rgb(9, 186, 240), 0px 0px 40px rgb(9, 186, 240),0px 0px 80px rgb(9, 186, 240);
+    
+
+
+}
+
+
+#header {
+    width: 8rem;
+    height: 10rem;
+    background-color: coral;
+    
+    border-radius: 8px;
+   
+}
+#body {
+    width: 12rem;
+    height: 6rem;
+    background-color: rgb(14, 14, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    flex-direction: column;
+    font-weight: 200;
+   
+}
+#parentbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background: none;
+   
+}
+.add{
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    font-weight: 300;
+    border-radius: 20px;
+    padding : 4px;
+    cursor: pointer;
+    border : 2px solid white
+    
+}
+.add:hover{
+   
+    box-shadow: 0px 0px 20px rgb(9, 186, 240), 0px 0px 40px rgb(9, 186, 240),0px 0px 80px rgb(9, 186, 240);
+}
+.rem{
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    font-weight: 300;
+     border-radius: 20px;
+     padding : 4px;
+     cursor: pointer;
+     border: 2px solid white;
+}
+.rem:hover{
+    box-shadow: 0px 0px 20px rgb(240, 9, 140), 0px 0px 40px rgb(240, 9, 140),0px 0px 80px  rgb(240, 9, 140)
+}
+
+
+
+ 
+.son01>#header{
+    background-image: url('/01.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son02>#header{
+    background-image: url('/02.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son03>#header{
+    background-image: url('/03.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son04>#header{
+    background-image: url('/04.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son05>#header{
+    background-image: url('/05.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son06>#header{
+    background-image: url('/06.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son07>#header{
+    background-image: url('/07.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son08>#header{
+    background-image: url('/08.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son09>#header{
+    background-image: url('/09.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.son010>#header{
+    background-image: url('/10.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son011>#header{
+    background-image: url('/11.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son012>#header{
+    background-image: url('/12.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son013>#header{
+    background-image: url('/13.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son014>#header{
+    background-image: url('/14.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son015>#header{
+    background-image: url('/15.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son016>#header{
+    background-image: url('/16.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son017>#header{
+    background-image: url('/17.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son018>#header{
+    background-image: url('/18.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son019>#header{
+    background-image: url('/19.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.son020>#header{
+    background-image: url('/20.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son020>#header{
+    background-image: url('/20.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son021>#header{
+    background-image: url('/21.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son023>#header{
+    background-image: url('/23.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son024>#header{
+    background-image: url('/24.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son025>#header{
+    background-image: url('/25.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son026>#header{
+    background-image: url('/26.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.son027>#header{
+    background-image: url('/27.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son028>#header{
+    background-image: url('/28.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son029>#header{
+    background-image: url('/29.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+
+}.son030>#header{
+    background-image: url('/30.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son031>#header{
+    background-image: url('/31.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son032>#header{
+    background-image: url('/32.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son033>#header{
+    background-image: url('/33.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son034>#header{
+    background-image: url('/34.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son035>#header{
+    background-image: url('/35.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son036>#header{
+    background-image: url('/36.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son037>#header{
+    background-image: url('/37.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son038>#header{
+    background-image: url('/38.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}.son039>#header{
+    background-image: url('/39.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son040>#header{
+    background-image: url('/40.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son041>#header{
+    background-image: url('/41.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son042>#header{
+    background-image: url('/42.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son043>#header{
+    background-image: url('/43.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son044>#header{
+    background-image: url('/44.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.son045>#header{
+    background-image: url('/45.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.son046>#header{
+    background-image: url('/46.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son047>#header{
+    background-image: url('/47.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son048>#header{
+    background-image: url('/48.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+} 
+.son049>#header{
+    background-image: url('/49.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+} 
+.son050>#header{
+    background-image: url('/50.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son051>#header{
+    background-image: url('/51.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son052>#header{
+    background-image: url('/52.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son053>#header{
+    background-image: url('/53.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son054>#header{
+    background-image: url('/54.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+} 
+.son055>#header{
+    background-image: url('/55.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son056>#header{
+    background-image: url('/56.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son057>#header{
+    background-image: url('/57.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son058>#header{
+    background-image: url('/58.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son059>#header{
+    background-image: url('/59.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son060>#header{
+    background-image: url('/60.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son061>#header{
+    background-image: url('/61.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son062>#header{
+    background-image: url('/62.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+} 
+.son063>#header{
+    background-image: url('/63.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+.son064>#header{
+    background-image: url('/64.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}

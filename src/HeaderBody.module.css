@@ -1,0 +1,14 @@
+/* HeaderBody.module.css */
+.navbar {
+  height: 3.5rem;
+  width: 100%;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:green;
+  
+  font-size: 1.2rem;
+  
+}
+

@@ -1,0 +1,137 @@
+.itemcontainer{
+ height: 100%;
+ width:100%;
+ background-color: blue;
+ display: flex;
+ justify-content: center;
+ padding-top: 2rem;
+
+ 
+ background-image: url(./Background.png);
+ 
+}
+#headinginsideDiv{
+    /* background-color: chartreuse; */
+    font-weight: 700;
+    height: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url(./Background.png);
+    font-size: 34px;
+
+    
+}
+.parentdiv{
+    height:60%;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.2rem;
+    /* margin: auto; */
+    justify-content: center;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    background: transparent;
+  
+}
+.hover{
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    font-size: 23px;
+    border-radius: 6px;
+    border-right: solid 5px white;
+    border-top: solid 4px white;
+    border-left:solid 8px black;
+   
+  
+     
+}
+
+.Child01{
+    height:inherit;
+    background-color: orange;
+    width: 10rem;
+
+    
+}
+.Child02{
+    height:inherit;
+    background-color:pink;
+   width:10rem;
+    
+}
+
+.Child03{
+    height:inherit;
+    background-color:rgb(229, 17, 236);
+   width:10rem;
+    
+}
+
+.Child04{
+    height:inherit;
+    background-color:rgb(30, 216, 13);
+   width:10rem;
+    
+}
+
+.Child05{
+    height:inherit;
+    background-color:rgb(202, 22, 22);
+   width:10rem;
+    
+}
+
+.Child06{
+    height:inherit;
+    background-color:rgb(24, 5, 52);
+   width:10rem;
+    
+}
+
+.Child07{
+    height:inherit;
+    background-color:rgb(30, 156, 104);
+   width:10rem;
+    
+}
+
+.Child08{
+    height:inherit;
+    background-color:rgb(186, 197, 31);
+   width:10rem;
+    
+}
+.Child09{
+    height:inherit;
+    background-color:rgb(197, 120, 31);
+   width:10rem;
+    
+}
+.Child010{
+    height:inherit;
+    background-color:rgb(197, 31, 36);
+   width:10rem;
+    
+}
+.parentdiv:hover .hover{
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+}
+.parentdiv .hover:hover{
+     filter: blur(0px);
+    box-shadow: 0px 0px 20px whitesmoke,0px 0px 40px whitesmoke,0px 0px 80px whitesmoke;
+    transform: rotateX(20deg) rotateY(10deg) ;
+    scale: 1;
+    z-index: 2;
+
+}
+
+

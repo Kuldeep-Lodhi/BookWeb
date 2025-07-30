@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "c4c7",
+      "firstname": "Kuld",
+      "lastname": "LOd",
+      "email": "123@ass",
+      "password": "lkkj",
+      "rememberMe": true
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+#parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  
+  border-bottom:4px solid rgb(50, 74, 193);
+  width: 100%;
+  padding: 1rem;
+  background-color: rgb(0, 0, 0);
+  z-index: 1200; /* Ensure it stays above other content */
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+    gap: 2rem;
+    padding: 0px 2rem;
+    background: transparent;
+    /* background-color: blueviolet; */
+
+  
+}
+.options a{
+  text-decoration: none;
+  font-weight: 300;
+  color: beige;
+}
+.options a:hover{
+  text-decoration: none;
+  font-weight: 300;
+  color: rgb(52, 165, 221);
+  cursor: pointer;
+
+ 
+}
+.logo{
+    margin-left: 2rem;
+    /* height:12px */
+     background: transparent;
+
+}
+
+.searchbar {
+  padding: 0.8rem 1rem;
+  border-radius: 20px;
+  border: 2px solid #2f0bb1;
+  outline: none;
+  font-size: 1rem;
+  margin: 0 1rem;
+  transition: 0.3s ease;
+width: 20rem;
+background-color: aliceblue;
+}
+
+.searchbar:focus {
+  border-color: #3e0aa8;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+

@@ -1,0 +1,67 @@
+.main-about {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to right, #000000, #989793);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+    
+}
+
+.about-card {
+    background-color: #3b3838;
+    padding: 2rem 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 700px;
+   
+}
+
+#about-heading {
+    font-size: 2.8rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+}
+
+.about-description {
+    font-size: 1.2rem;
+    color: #fcf9f9;
+    line-height: 1.6;
+}
+
+.highlight {
+    color: #f57c00;
+    font-weight: bold;
+}
+
+.rating-section {
+    margin-top: 2rem;
+}
+
+.rating-section h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #444;
+}
+
+.stars {
+    font-size: 2rem;
+    color: #ffd700;
+    cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star {
+    color: #ff9800;
+}
+
+.feedback-note {
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: 0.5rem;
+}

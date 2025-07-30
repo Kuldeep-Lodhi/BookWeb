@@ -1,0 +1,90 @@
+/* .itemscontainer{
+    position: absolute;
+     top: 15rem;
+    left: 8rem;
+    height: 10rem;
+    width:30rem;
+    background-color: green;
+   
+
+}
+ */
+.itemscontainer{
+     height: inherit;
+    width: 40%;
+    /* background-color: blueviolet; */
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.text01{
+    font-size: xx-large;
+    color: azure;
+    position: absolute;
+    top:15rem;
+    left:2rem;
+    font-weight: 700;
+}
+.text01>span{
+    color: blue;
+}
+.text02{
+    font-weight: 400;
+    color: rgb(166, 166, 194);
+    position: absolute;
+    top:22rem;
+    left:2rem;
+    padding-right:2rem;
+    
+}
+.button01{
+     position: absolute;
+    top:35rem;
+    left:2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 4rem;
+    width: 10rem;
+    color: white;
+    border-radius: 50px;
+   background-color: black;
+   cursor: pointer;
+
+}
+.button01:hover{
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+  /* transform: scale(1.05); */
+
+}
+
+
+
+.button02{
+     position: absolute;
+    top:35rem;
+    right:2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    height: 4rem;
+    width: 10rem;
+    color: white;
+    border-radius: 50px;
+   background-color: black;
+   cursor: pointer;
+
+}
+.button02:hover{
+    box-shadow: 0 0 20px rgb(255, 0, 195), 0 0 40px rgb(255, 0, 195), 0 0 80px #0ff;
+   
+
+}
+#cover{
+    height:10rem;
+    width:12rem;
+    position: relative;
+    background-color: blue;
+    bottom:2rem;
+    right:4rem;
+    z-index: 1;
+}

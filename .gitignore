@@ -1,0 +1,13 @@
+# dependencies
+# Ignore all node_modules folders everywherenode_modules/
+node_modules
+
+# production
+build/
+
+# misc
+.env
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
